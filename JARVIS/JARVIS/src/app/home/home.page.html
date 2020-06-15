@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            JARVIS
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <ion-item>
+        <ion-text>
+            Hola, Soy el Asistente Virtual en que puedo ayudarte??
+        </ion-text>
+        <ion-icon name="leaf"></ion-icon>
+    </ion-item>
+    <app-insert [session]="this.sessionId"></app-insert>
+    <br>
+    <app-outs [texts]="this.envios"></app-outs>
+</ion-content>
